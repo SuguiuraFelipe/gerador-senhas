@@ -25,6 +25,7 @@ function App() {
   
     // 3. Atribui a senha gerada ao texto do elemento
     divPassword.innerText = senha; // Agora 'senha' está definida e é atribuída corretamente
+    setCopyText ('Copiar')
   }  
 
   const [copyText, setCopyText] = useState('Copiar')
