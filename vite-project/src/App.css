@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button-wrapper{
+  display: flex; /* Ativa o Flexbox */
+  justify-content: space-evenly; /* Cria espaço entre os botões */
+  width: 100%; /* Opcional: Ajusta o tamanho da div */
+  gap: 10px; /* Espaço fixo entre os itens, opcional */
+}
+
+button {
+  padding: 10px 20px; /* Ajusta o tamanho dos botões */
+  font-size: 16px; /* Estilização extra */
+  cursor: pointer;
+}
